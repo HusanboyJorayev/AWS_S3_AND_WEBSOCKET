@@ -20,10 +20,5 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer/*, WebS
         registry.addEndpoint("/ws").setAllowedOriginPatterns("*").withSockJS();
     }
 
-    /*@Override
-    public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(new YourWebSocketHandler(), "/ws")
-                .setAllowedOrigins("http://localhost:2222");
-    }*/
 }
 
